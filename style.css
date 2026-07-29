@@ -23,7 +23,7 @@ body{
   margin: 1rem;
   font-family: segoe;
   line-height: 1.5;
-  background-image: url('./adlerhey.png');
+  background-image: url('adlerhey.png');
 }
 /* images and videos max out at full width */
 img,
