@@ -1,0 +1,33 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: white;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* adjust typography defaults */
+h1 {
+  color: white;
+  margin-left: 20px;
+}
+p{
+  color: white;
+  margin-left: 20px;
+}
+body{
+  margin: 1rem;
+  font-family: segoe;
+  line-height: 1.5;
+  background-image: url('https://cdn.glitch.global/426ab3bc-e364-4539-942e-dec46007dde2/UofG_Website.png?v=1744019002678');
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
